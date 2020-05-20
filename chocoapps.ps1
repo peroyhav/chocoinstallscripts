@@ -36,6 +36,10 @@ choco install 7zip
 choco install skype
 choco install kdiff3
 choco install postman
+## paint.net requires dotnet4.7.1 not sure whether it is required to be installed manually.
+## installation will require reboot.
+choco install dotnet4.7.1
+choco install paint.net
 
 # Browsers
 
