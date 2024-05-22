@@ -8,16 +8,22 @@ ECHO Configure chocolatey
 
 choco feature enable -n allowGlobalConfirmation
 
+# Development tools
+
 choco install visualstudiocode
 choco install python
 choco install azcopy
 choco install wireshark
-choco install azure-cli
 choco install fiddler4
 choco install linqpad
 choco install docker
 choco install jq
 choco install slack
+
+# Cloud providers
+
+choco install gcloudsdk
+choco install azure-cli
 
 # DEVOPS
 
@@ -32,8 +38,7 @@ choco install gitextensions
 
 #Misc
 
-choco install 7zip 
-choco install skype
+choco install 7zip
 choco install kdiff3
 choco install postman
 ## paint.net requires dotnet4.7.1 not sure whether it is required to be installed manually.
@@ -48,6 +53,5 @@ choco install googlechrome
 # Password managers
 
 choco install bitwarden
-
 
 choco feature disable -n allowGlobalConfirmation
